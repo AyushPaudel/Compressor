@@ -1,0 +1,27 @@
+Huﬀman coding example
+Now we assign codes to the tree by placing a 0 on every left branch and a 1 on
+every right branch
+A traversal of the tree from root to leaf give the Huﬀman code for that particular leaf
+character
+These codes are then used to encode the string
+
+Huﬀman coding
+Coding: Assigning binary codewords to (blocks of) source symbols
+Huﬀman coding is a lossless data compression algorithm.
+Idea:
+
+Assign variable-length codes to input characters, based on the frequencies of
+corresponding characters.
+The most frequent character gets the smallest code and the least frequent
+character gets the largest code.Huﬀman coding
+There are mainly two major parts in Huﬀman Coding
+1. Build a Huﬀman Tree from input characters.
+2. Traverse the Huﬀman Tree and assign codes to characters.Building a Huﬀman tree
+1. Organize the entire character set into a row, ordered according to frequency
+from highest to lowest (or vice versa). Each character is now a node at the
+leaf level of a tree
+2. Find two nodes with the smallest combined frequency weights and join
+them to form a third node, resulting in a simple two-level tree. The weight of
+the new node is the combined weights of the original two nodes.
+3. Repeat step 2 until all of the nodes, on every level, are combined into a single
+tree.
