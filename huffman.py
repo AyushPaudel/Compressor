@@ -167,5 +167,6 @@ class HuffmanCoding:
         print("Decompressed")
         return output_path
 
-# h = HuffmanCoding()
-# h.compress()
+if __name__ == "__main__":
+    h = HuffmanCoding()
+    h.compress()
