@@ -7,7 +7,7 @@ and to compress/decompress a file.
 1. Clone the repository
 
 
-2. The program consists of two python files, `huffman.py` and `use.py`. To convert string to respective huffman code,run `huffman.py`.
+2. The program consists of two python files, `huffman.py` and `use.py`. To convert string to respective huffman code, run `huffman.py`.
    
     
 3. To compress a file, you can use `use.py`, the **compress_decompress()** function will perform compression and decompression
